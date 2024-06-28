@@ -11,8 +11,6 @@ public class LoginRequest {
     @NotBlank
     private String password;
 
-    // Getters and Setters (or Lombok annotations for getters/setters)
-
     public LoginRequest() {
     }
 
@@ -21,7 +19,6 @@ public class LoginRequest {
         this.password = password;
     }
 
-    // Getters and Setters
     public String getUsername() {
         return username;
     }
