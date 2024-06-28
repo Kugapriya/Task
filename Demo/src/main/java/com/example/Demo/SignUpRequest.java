@@ -20,8 +20,6 @@ public class SignUpRequest {
     @Size(min = 6, max = 40)
     private String password;
 
-    // Getters and Setters (or Lombok annotations for getters/setters)
-
     public SignUpRequest() {
     }
 
@@ -33,7 +31,6 @@ public class SignUpRequest {
         this.password = password;
     }
 
-    // Getters and Setters
     public String getUsername() {
         return username;
     }
