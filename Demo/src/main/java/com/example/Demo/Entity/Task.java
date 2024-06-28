@@ -21,5 +21,5 @@ public class Task {
     @Column(nullable = false)
     private boolean completed;
 
-    // constructors, getters, setters
+
 }

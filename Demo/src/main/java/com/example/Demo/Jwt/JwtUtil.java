@@ -37,12 +37,11 @@ public class JwtUtil {
                 .signWith(SignatureAlgorithm.HS256, SECRET_KEY).compact();
     }
 
-    // Extract username from token
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
     }
 
-    // Extract expiration date from token
+
     public Date extractExpiration(String token) {
         return extractClaim(token, Claims::getExpiration);
     }
